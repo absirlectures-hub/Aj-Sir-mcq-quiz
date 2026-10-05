@@ -47,16 +47,6 @@ small{color:var(--muted)}
 <h1>📝 MCQ Quiz</h1>
 <div class="card" id="box"></div>
 
-<details>
-<summary>⚙️ Teacher setup (MCQs &amp; sounds)</summary>
-<p><small>Ek line = ek question. Format: <code>Question | Option A | Option B | Option C | Option D | Correct letter</code></p>
-<textarea id="mcqText" spellcheck="false"></textarea>
-<label>Right answer sound: <input type="file" id="sndRight" accept="audio/*"></label>
-<label>Wrong answer sound: <input type="file" id="sndWrong" accept="audio/*"></label>
-<button class="btn alt" id="apply">Apply &amp; restart</button> <button class="btn alt" id="copyBtn">Copy MCQs</button>
-<p id="status"><small></small></p>
-<p><small>Note: yeh settings sirf is browser session ke liye hain. Permanent ke liye MCQs aur sounds file me embed karwa lo.</small></p>
-</details>
 </main>
 
 <script>
